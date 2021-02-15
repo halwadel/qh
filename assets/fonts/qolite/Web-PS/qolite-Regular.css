@@ -1,0 +1,9 @@
+/* Webfont: qolite-Regular */@font-face {
+    font-family: 'qolite';
+    src: url('qolite-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('qolite-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
