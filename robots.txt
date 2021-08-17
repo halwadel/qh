@@ -1,9 +1,17 @@
----
----
-# www.robotstxt.org/
 
 User-agent: Mediapartners-Google
 Disallow:
 User-agent: *
 Allow: /
 Sitemap: https://quranhadits.com/sitemap.xml
+Sitemap: https://quranhadits.com/sitemap/abu-daud.xml
+Sitemap: https://quranhadits.com/sitemap/ahmad-01.xml
+Sitemap: https://quranhadits.com/sitemap/ahmad-02.xml
+Sitemap: https://quranhadits.com/sitemap/ahmad-03.xml
+Sitemap: https://quranhadits.com/sitemap/bukhari.xml
+Sitemap: https://quranhadits.com/sitemap/darimi.xml
+Sitemap: https://quranhadits.com/sitemap/ibnu-majah.xml
+Sitemap: https://quranhadits.com/sitemap/malik.xml
+Sitemap: https://quranhadits.com/sitemap/muslim.xml
+Sitemap: https://quranhadits.com/sitemap/nasai.xml
+Sitemap: https://quranhadits.com/sitemap/tirmidzi.xml
