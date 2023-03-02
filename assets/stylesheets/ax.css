@@ -1,0 +1,24 @@
+.md-nav--primary .md-nav__link:after {
+    position: absolute;
+    top: 50%;
+    right: 0rem;
+    margin-top: -0.6rem;
+    color: inherit;
+    font-size: 1.1rem;
+}
+.md-nav--primary .md-nav__link {
+    position: relative;
+    margin-top: 0;
+    padding: 0.6rem 0rem;
+}
+.md-nav--primary .md-nav__item {
+    padding: 0;
+    border-bottom: 1px solid #D7D9DE;
+    margin-right: 0.6rem;
+}
+.md-nav--primary .md-nav__item, .md-nav--primary .md-nav__title {
+    line-height: 1.1;
+}
+.md-nav:not(.md-nav--primary) {
+  margin-left: 1rem;
+}

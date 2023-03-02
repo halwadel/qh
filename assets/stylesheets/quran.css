@@ -1,0 +1,51 @@
+.quran-list dd,
+.quran-list dt {
+  margin: 0;
+  padding: 0;
+}
+.quran-list {
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.quran-word {
+  padding: 5px;
+  background-color: #fff;
+  margin: 2px 5px;
+  border-bottom: 1px solid #DAE1F2;
+}
+[lang=id],
+[lang=en],
+[lang=hi] {
+  direction: ltr;
+}
+.qw-m[lang=ar] {
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
+.qw-bt,
+.qw-b,
+.qw-t {
+  color: #47466A;
+  font-size: 0.8rem;
+  direction: ltr;
+  unicode-bidi: -webkit-isolate;
+  padding-top: 0.9rem;
+}
+.qw-t {
+  color: #646497;
+}
+.md-typeset h1 {
+  margin: 0;
+}
+
+.md-typeset h1 + h2 {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #909090;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

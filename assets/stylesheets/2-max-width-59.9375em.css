@@ -1,0 +1,107 @@
+@media only screen and (max-width: 59.9375em) {
+  body[data-md-state="lock"] {
+    overflow: hidden;
+  }
+  .ios body[data-md-state="lock"] .md-container {
+    display: none;
+  }
+  html .md-nav__link[for="__toc"] {
+    display: block;
+    padding-right: 2.4rem;
+  }
+  html .md-nav__link[for="__toc"]:after {
+    color: inherit;
+    content: "\E8DE";
+  }
+  html .md-nav__link[for="__toc"] + .md-nav__link {
+    display: none;
+  }
+  html .md-nav__link[for="__toc"] ~ .md-nav {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .md-search__overlay {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: opacity 0.2s 0.2s, -webkit-transform 0.3s 0.1s;
+    transition: opacity 0.2s 0.2s, -webkit-transform 0.3s 0.1s;
+    transition: transform 0.3s 0.1s, opacity 0.2s 0.2s;
+    transition: transform 0.3s 0.1s, opacity 0.2s 0.2s,
+      -webkit-transform 0.3s 0.1s;
+    border-radius: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__overlay {
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+    opacity: 1;
+  }
+  .md-search__inner {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateX(5%);
+    transform: translateX(5%);
+    -webkit-transition: right 0s 0.3s, left 0s 0.3s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    transition: right 0s 0.3s, left 0s 0.3s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    transition: right 0s 0.3s, left 0s 0.3s,
+      transform 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s, opacity 0.15s 0.15s;
+    transition: right 0s 0.3s, left 0s 0.3s,
+      transform 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0.15s;
+    opacity: 0;
+    z-index: 2;
+  }
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    left: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: right 0s 0s, left 0s 0s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.1, 0.7, 0.1, 1) 0.15s;
+    transition: right 0s 0s, left 0s 0s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.1, 0.7, 0.1, 1) 0.15s;
+    transition: right 0s 0s, left 0s 0s,
+      transform 0.15s cubic-bezier(0.1, 0.7, 0.1, 1) 0.15s, opacity 0.15s 0.15s;
+    transition: right 0s 0s, left 0s 0s,
+      transform 0.15s cubic-bezier(0.1, 0.7, 0.1, 1) 0.15s, opacity 0.15s 0.15s,
+      -webkit-transform 0.15s cubic-bezier(0.1, 0.7, 0.1, 1) 0.15s;
+    opacity: 1;
+  }
+
+
+  .md-search__input {
+    width: 100%;
+    height: 2.4rem;
+    font-size: 0.9rem;
+  }
+  .md-search__icon[for="__search"] {
+    top: 0.6rem;
+    left: 0.8rem;
+  }
+  .md-search__icon[for="__search"][for="__search"]:before {
+    content: "\E5C4";
+  }
+  .md-search__icon[type="reset"] {
+    top: 0.6rem;
+    right: 0.8rem;
+  }
+  .md-search__output {
+    top: 2.4rem;
+    bottom: 0;
+  }
+}

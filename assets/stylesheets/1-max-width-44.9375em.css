@@ -1,0 +1,23 @@
+@media only screen and (max-width: 44.9375em) {
+  .md-typeset pre {
+    margin: 1em -0.8rem;
+    border-radius: 0;
+  }
+  .md-typeset pre > code {
+    padding: 0.525rem 0.8rem;
+  }
+  .md-footer-nav__link--prev .md-footer-nav__title {
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 100em) {
+  html {
+    font-size: 137.5%;
+  }
+}
+@media only screen and (min-width: 125em) {
+  html {
+    font-size: 150%;
+  }
+}
