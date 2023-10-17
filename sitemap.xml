@@ -21,5 +21,16 @@
   <sitemap>
     <loc>https://quranhadits.com/sitemap-ayah-bn.xml</loc>
   </sitemap>
-
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-surah-ta.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-ayah-ta.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-surah-tr.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-ayah-tr.xml</loc>
+  </sitemap>
 </sitemapindex>
