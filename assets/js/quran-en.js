@@ -26,7 +26,7 @@ $(document).ready(function() {
                 ' value="' +
                 value.url +
                 '">' +
-                "Ayat " + key_idAya +
+                "Ayah " + key_idAya +
                 "</option>";  
             });
 
@@ -71,7 +71,7 @@ $(document).ready(function() {
                 ' value="' +
                 val.url +
                 '">' +
-                "Ayat " + val.num +
+                "Ayah " + val.num +
                 "</option>";  
             });
 
