@@ -15,4 +15,10 @@
   <sitemap>
     <loc>https://quranhadits.com/sitemap-ayah-en.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-surah-hi.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://quranhadits.com/sitemap-ayah-hi.xml</loc>
+  </sitemap>
 </sitemapindex>
